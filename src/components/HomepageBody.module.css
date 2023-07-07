@@ -1,0 +1,21 @@
+.homepage_body {
+  flex-grow: 20;
+}
+
+.body_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem 1.5rem;
+}
+
+.heading_name {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.scanned_date {
+  font-size: small;
+  font-weight: 500;
+  color: grey;
+}

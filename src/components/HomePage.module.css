@@ -1,0 +1,9 @@
+.homepage_layout {
+  display: flex;
+}
+
+.navbar {
+  flex-grow: 1;
+  background-color: antiquewhite;
+  text-align: center;
+}
