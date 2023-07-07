@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+.cloudImg {
+  margin: 1rem 0;
+}
+
+.cloudImg,
+.cubeImg {
+  height: 50px;
+  width: 60px;
+  background: none;
+}
+
+.cube_image_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.cubeImg {
+  margin: 0.5rem 0;
+}
+
+.upper_section {
+  flex-grow: 50;
+}
+
+.symbol {
+  flex-grow: 2;
+}
+
+.symbolImg {
+  height: 50px;
+  width: 50px;
+}

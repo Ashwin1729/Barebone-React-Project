@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Table.module.css";
+import Button from "./Button";
 
 const Table = ({ data }) => {
   let tableRows = <div></div>;
@@ -28,8 +29,9 @@ const Table = ({ data }) => {
           <div className={styles.row_item} style={{ color: "blue" }}>
             {tableRow.requested_by}
           </div>
-          <div className={styles.row_item} style={{ color: "blue" }}>
-            {tableRow.requested_to}
+          <div className={styles.row_item}>
+            <Button buttonName="Approve" />
+            <Button buttonName="Reject" />
           </div>
         </div>
       );
